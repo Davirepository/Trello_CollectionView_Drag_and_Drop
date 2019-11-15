@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63BF239A23770C7800D77D3C /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BF239923770C7800D77D3C /* TitleCollectionViewCell.swift */; };
+		63DBE8532374555800BE3ED9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DBE8522374555800BE3ED9 /* AppDelegate.swift */; };
+		63DBE85A2374555900BE3ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63DBE8592374555900BE3ED9 /* Assets.xcassets */; };
+		63DBE85D2374555900BE3ED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DBE85B2374555900BE3ED9 /* LaunchScreen.storyboard */; };
+		63DBE8692374580400BE3ED9 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DBE8682374580400BE3ED9 /* CollectionViewController.swift */; };
+		63DBE86B2374582A00BE3ED9 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DBE86A2374582A00BE3ED9 /* DataSource.swift */; };
+		63DBE86D237467CB00BE3ED9 /* CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DBE86C237467CB00BE3ED9 /* CustomLayout.swift */; };
+		63DBE87123746C8500BE3ED9 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DBE87023746C8500BE3ED9 /* CollectionViewCell.swift */; };
+		63EA9467237D0289005C7C35 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EA9466237D0289005C7C35 /* Data.swift */; };
+		63EA946C237E465D005C7C35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EA946B237E465D005C7C35 /* ViewController.swift */; };
+		63EA9470237E4ECC005C7C35 /* NewCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EA946F237E4ECC005C7C35 /* NewCellViewController.m */; };
+		63EA9472237E5914005C7C35 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EA9471237E5914005C7C35 /* File.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63BF239923770C7800D77D3C /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		63DBE84F2374555800BE3ED9 /* HW_CollectionView_Trello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW_CollectionView_Trello.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63DBE8522374555800BE3ED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63DBE8592374555900BE3ED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63DBE85C2374555900BE3ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63DBE85E2374555900BE3ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63DBE8682374580400BE3ED9 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		63DBE86A2374582A00BE3ED9 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		63DBE86C237467CB00BE3ED9 /* CustomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayout.swift; sourceTree = "<group>"; };
+		63DBE87023746C8500BE3ED9 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		63EA9466237D0289005C7C35 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		63EA946B237E465D005C7C35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63EA946D237E4ECC005C7C35 /* HW_CollectionView_Trello-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HW_CollectionView_Trello-Bridging-Header.h"; sourceTree = "<group>"; };
+		63EA946E237E4ECC005C7C35 /* NewCellViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewCellViewController.h; sourceTree = "<group>"; };
+		63EA946F237E4ECC005C7C35 /* NewCellViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewCellViewController.m; sourceTree = "<group>"; };
+		63EA9471237E5914005C7C35 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63DBE84C2374555800BE3ED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63DBE8462374555800BE3ED9 = {
+			isa = PBXGroup;
+			children = (
+				63DBE8512374555800BE3ED9 /* HW_CollectionView_Trello */,
+				63DBE8502374555800BE3ED9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63DBE8502374555800BE3ED9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63DBE84F2374555800BE3ED9 /* HW_CollectionView_Trello.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63DBE8512374555800BE3ED9 /* HW_CollectionView_Trello */ = {
+			isa = PBXGroup;
+			children = (
+				63DBE8522374555800BE3ED9 /* AppDelegate.swift */,
+				63EA9468237DEC77005C7C35 /* Model */,
+				63DBE87223746C9000BE3ED9 /* View */,
+				63DBE87323746CB300BE3ED9 /* Controller */,
+				63DBE8592374555900BE3ED9 /* Assets.xcassets */,
+				63DBE85B2374555900BE3ED9 /* LaunchScreen.storyboard */,
+				63DBE85E2374555900BE3ED9 /* Info.plist */,
+			);
+			path = HW_CollectionView_Trello;
+			sourceTree = "<group>";
+		};
+		63DBE87223746C9000BE3ED9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63BF239923770C7800D77D3C /* TitleCollectionViewCell.swift */,
+				63DBE87023746C8500BE3ED9 /* CollectionViewCell.swift */,
+				63DBE86C237467CB00BE3ED9 /* CustomLayout.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63DBE87323746CB300BE3ED9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63DBE8682374580400BE3ED9 /* CollectionViewController.swift */,
+				63DBE86A2374582A00BE3ED9 /* DataSource.swift */,
+				63EA946B237E465D005C7C35 /* ViewController.swift */,
+				63EA9471237E5914005C7C35 /* File.swift */,
+				63EA946E237E4ECC005C7C35 /* NewCellViewController.h */,
+				63EA946F237E4ECC005C7C35 /* NewCellViewController.m */,
+				63EA946D237E4ECC005C7C35 /* HW_CollectionView_Trello-Bridging-Header.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		63EA9468237DEC77005C7C35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				63EA9466237D0289005C7C35 /* Data.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63DBE84E2374555800BE3ED9 /* HW_CollectionView_Trello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63DBE8612374555900BE3ED9 /* Build configuration list for PBXNativeTarget "HW_CollectionView_Trello" */;
+			buildPhases = (
+				63DBE84B2374555800BE3ED9 /* Sources */,
+				63DBE84C2374555800BE3ED9 /* Frameworks */,
+				63DBE84D2374555800BE3ED9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HW_CollectionView_Trello;
+			productName = HW_CollectionView_Trello;
+			productReference = 63DBE84F2374555800BE3ED9 /* HW_CollectionView_Trello.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63DBE8472374555800BE3ED9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = David;
+				TargetAttributes = {
+					63DBE84E2374555800BE3ED9 = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+					};
+				};
+			};
+			buildConfigurationList = 63DBE84A2374555800BE3ED9 /* Build configuration list for PBXProject "HW_CollectionView_Trello" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63DBE8462374555800BE3ED9;
+			productRefGroup = 63DBE8502374555800BE3ED9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63DBE84E2374555800BE3ED9 /* HW_CollectionView_Trello */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63DBE84D2374555800BE3ED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DBE85D2374555900BE3ED9 /* LaunchScreen.storyboard in Resources */,
+				63DBE85A2374555900BE3ED9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63DBE84B2374555800BE3ED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63EA9467237D0289005C7C35 /* Data.swift in Sources */,
+				63DBE87123746C8500BE3ED9 /* CollectionViewCell.swift in Sources */,
+				63DBE86B2374582A00BE3ED9 /* DataSource.swift in Sources */,
+				63DBE8692374580400BE3ED9 /* CollectionViewController.swift in Sources */,
+				63BF239A23770C7800D77D3C /* TitleCollectionViewCell.swift in Sources */,
+				63EA9472237E5914005C7C35 /* File.swift in Sources */,
+				63DBE86D237467CB00BE3ED9 /* CustomLayout.swift in Sources */,
+				63EA9470237E4ECC005C7C35 /* NewCellViewController.m in Sources */,
+				63EA946C237E465D005C7C35 /* ViewController.swift in Sources */,
+				63DBE8532374555800BE3ED9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63DBE85B2374555900BE3ED9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63DBE85C2374555900BE3ED9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63DBE85F2374555900BE3ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63DBE8602374555900BE3ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63DBE8622374555900BE3ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HK3JCX6MNH;
+				INFOPLIST_FILE = HW_CollectionView_Trello/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "david.HW-CollectionView-Trello";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HW_CollectionView_Trello/Controller/HW_CollectionView_Trello-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63DBE8632374555900BE3ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HK3JCX6MNH;
+				INFOPLIST_FILE = HW_CollectionView_Trello/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "david.HW-CollectionView-Trello";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HW_CollectionView_Trello/Controller/HW_CollectionView_Trello-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63DBE84A2374555800BE3ED9 /* Build configuration list for PBXProject "HW_CollectionView_Trello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DBE85F2374555900BE3ED9 /* Debug */,
+				63DBE8602374555900BE3ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63DBE8612374555900BE3ED9 /* Build configuration list for PBXNativeTarget "HW_CollectionView_Trello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DBE8622374555900BE3ED9 /* Debug */,
+				63DBE8632374555900BE3ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63DBE8472374555800BE3ED9 /* Project object */;
+}
