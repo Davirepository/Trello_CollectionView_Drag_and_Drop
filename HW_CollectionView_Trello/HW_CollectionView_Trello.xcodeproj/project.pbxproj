@@ -18,7 +18,6 @@
 		63EA9467237D0289005C7C35 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EA9466237D0289005C7C35 /* Data.swift */; };
 		63EA946C237E465D005C7C35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EA946B237E465D005C7C35 /* ViewController.swift */; };
 		63EA9470237E4ECC005C7C35 /* NewCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EA946F237E4ECC005C7C35 /* NewCellViewController.m */; };
-		63EA9472237E5914005C7C35 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EA9471237E5914005C7C35 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +36,6 @@
 		63EA946D237E4ECC005C7C35 /* HW_CollectionView_Trello-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HW_CollectionView_Trello-Bridging-Header.h"; sourceTree = "<group>"; };
 		63EA946E237E4ECC005C7C35 /* NewCellViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewCellViewController.h; sourceTree = "<group>"; };
 		63EA946F237E4ECC005C7C35 /* NewCellViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewCellViewController.m; sourceTree = "<group>"; };
-		63EA9471237E5914005C7C35 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +95,6 @@
 				63DBE8682374580400BE3ED9 /* CollectionViewController.swift */,
 				63DBE86A2374582A00BE3ED9 /* DataSource.swift */,
 				63EA946B237E465D005C7C35 /* ViewController.swift */,
-				63EA9471237E5914005C7C35 /* File.swift */,
 				63EA946E237E4ECC005C7C35 /* NewCellViewController.h */,
 				63EA946F237E4ECC005C7C35 /* NewCellViewController.m */,
 				63EA946D237E4ECC005C7C35 /* HW_CollectionView_Trello-Bridging-Header.h */,
@@ -189,7 +186,6 @@
 				63DBE86B2374582A00BE3ED9 /* DataSource.swift in Sources */,
 				63DBE8692374580400BE3ED9 /* CollectionViewController.swift in Sources */,
 				63BF239A23770C7800D77D3C /* TitleCollectionViewCell.swift in Sources */,
-				63EA9472237E5914005C7C35 /* File.swift in Sources */,
 				63DBE86D237467CB00BE3ED9 /* CustomLayout.swift in Sources */,
 				63EA9470237E4ECC005C7C35 /* NewCellViewController.m in Sources */,
 				63EA946C237E465D005C7C35 /* ViewController.swift in Sources */,
