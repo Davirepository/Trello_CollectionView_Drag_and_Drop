@@ -10,10 +10,11 @@ import UIKit
 
 @objc class CollectionViewController: UIViewController {
     
-    var collectionView: UICollectionView!
+    @objc var collectionView: UICollectionView!
     var dataSource = DataSource()
     let layout = CustomLayout()
     var newCell = NewCellViewController()
+    var indexPath: IndexPath?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,12 +26,9 @@ import UIKit
         collectionView.dragDelegate = self
         collectionView.dropDelegate = self
         collectionView.dragInteractionEnabled = true
+        navigationController?.isNavigationBarHidden = true
         
         self.view.addSubview(collectionView)
-    }
-    
-    func delete() {
-        collectionView.superview?.delete(newCell)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -38,7 +36,6 @@ import UIKit
         
         collectionView.dataSource = dataSource
         collectionView.delegate = self
-        navigationController?.isNavigationBarHidden = true
         updateLayout(with: view.frame.size)
     }
     
@@ -75,8 +72,8 @@ import UIKit
                 dIndexPath.row = collectionView.numberOfItems(inSection: dIndexPath.section)
             }
             collectionView.performBatchUpdates({
-                let text = dataSource.data.data[sourceIndexPath.section].remove(at: sourceIndexPath.row)
-                dataSource.data.data[dIndexPath.section].insert(text, at: dIndexPath.row)
+                dataSource.data.data[sourceIndexPath.section].remove(at: sourceIndexPath.row)
+                dataSource.data.data[dIndexPath.section].insert(item.dragItem.localObject as! String, at: dIndexPath.row)
                 collectionView.deleteItems(at: [sourceIndexPath])
                 collectionView.insertItems(at: [dIndexPath])
                 collectionView.reloadData()
@@ -96,8 +93,13 @@ extension CollectionViewController: UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         guard indexPath.item != 0 else {
-//            self.newCell = NewCellViewController().viewForTask()
+//            self.indexPath = indexPath
+//            let view = NewCellViewController().viewForTask()
+//            view.delegate = self
+//            self.newCell = view
+//
 //            collectionView.superview?.addSubview(newCell)
+//            collectionView.isUserInteractionEnabled = false
             dataSource.data.data[indexPath.section].append("")
             collectionView.reloadData()
             return }
@@ -157,6 +159,7 @@ extension CollectionViewController: UICollectionViewDropDelegate {
     }
     
     func collectionView(_ collectionView: UICollectionView, performDropWith coordinator: UICollectionViewDropCoordinator) {
+        
         let destinationIndexPath: IndexPath
         if let indexPath = coordinator.destinationIndexPath {
             guard indexPath.item != 0 else { return }
@@ -189,3 +192,19 @@ extension CollectionViewController: UICollectionViewDropDelegate {
     }
 }
 
+extension CollectionViewController: NewCellViewControllerDelegate {
+    func cellViewDidTapClose(_ view: NewCellViewController) {
+        view.removeFromSuperview()
+        self.collectionView.isUserInteractionEnabled = true
+    }
+    
+    func cellViewDidTapSave(_ view: NewCellViewController, saveText textview: String) {
+        if textview != "" {
+            dataSource.data.data[self.indexPath!.section].append(textview)
+        }
+        dataSource.data.data[self.indexPath!.section].append(textview)
+        view.removeFromSuperview()
+        self.collectionView.isUserInteractionEnabled = true
+    }
+    
+}

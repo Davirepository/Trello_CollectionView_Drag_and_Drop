@@ -8,9 +8,9 @@
 
 import UIKit
 
-public protocol LiquidLayoutDelegate {
-    func collectionView(collectionView: UICollectionView, heightForCellAtIndexPath indexPath: IndexPath, width: CGFloat) -> CGFloat
-}
+//public protocol LiquidLayoutDelegate {
+//    func collectionView(collectionView: UICollectionView, heightForCellAtIndexPath indexPath: IndexPath, width: CGFloat) -> CGFloat
+//}
 
 class CustomLayout: UICollectionViewLayout {
     

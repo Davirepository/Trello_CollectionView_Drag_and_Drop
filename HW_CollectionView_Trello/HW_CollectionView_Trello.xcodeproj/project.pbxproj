@@ -16,7 +16,6 @@
 		63DBE86D237467CB00BE3ED9 /* CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DBE86C237467CB00BE3ED9 /* CustomLayout.swift */; };
 		63DBE87123746C8500BE3ED9 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DBE87023746C8500BE3ED9 /* CollectionViewCell.swift */; };
 		63EA9467237D0289005C7C35 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EA9466237D0289005C7C35 /* Data.swift */; };
-		63EA946C237E465D005C7C35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EA946B237E465D005C7C35 /* ViewController.swift */; };
 		63EA9470237E4ECC005C7C35 /* NewCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EA946F237E4ECC005C7C35 /* NewCellViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 		63DBE86C237467CB00BE3ED9 /* CustomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayout.swift; sourceTree = "<group>"; };
 		63DBE87023746C8500BE3ED9 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		63EA9466237D0289005C7C35 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		63EA946B237E465D005C7C35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		63EA946D237E4ECC005C7C35 /* HW_CollectionView_Trello-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HW_CollectionView_Trello-Bridging-Header.h"; sourceTree = "<group>"; };
 		63EA946E237E4ECC005C7C35 /* NewCellViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewCellViewController.h; sourceTree = "<group>"; };
 		63EA946F237E4ECC005C7C35 /* NewCellViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewCellViewController.m; sourceTree = "<group>"; };
@@ -69,7 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				63DBE8522374555800BE3ED9 /* AppDelegate.swift */,
-				63EA9468237DEC77005C7C35 /* Model */,
+				63F91456237F510700A8DB59 /* Model */,
 				63DBE87223746C9000BE3ED9 /* View */,
 				63DBE87323746CB300BE3ED9 /* Controller */,
 				63DBE8592374555900BE3ED9 /* Assets.xcassets */,
@@ -94,7 +92,6 @@
 			children = (
 				63DBE8682374580400BE3ED9 /* CollectionViewController.swift */,
 				63DBE86A2374582A00BE3ED9 /* DataSource.swift */,
-				63EA946B237E465D005C7C35 /* ViewController.swift */,
 				63EA946E237E4ECC005C7C35 /* NewCellViewController.h */,
 				63EA946F237E4ECC005C7C35 /* NewCellViewController.m */,
 				63EA946D237E4ECC005C7C35 /* HW_CollectionView_Trello-Bridging-Header.h */,
@@ -102,12 +99,12 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		63EA9468237DEC77005C7C35 /* Model */ = {
+		63F91456237F510700A8DB59 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				63EA9466237D0289005C7C35 /* Data.swift */,
 			);
-			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +185,6 @@
 				63BF239A23770C7800D77D3C /* TitleCollectionViewCell.swift in Sources */,
 				63DBE86D237467CB00BE3ED9 /* CustomLayout.swift in Sources */,
 				63EA9470237E4ECC005C7C35 /* NewCellViewController.m in Sources */,
-				63EA946C237E465D005C7C35 /* ViewController.swift in Sources */,
 				63DBE8532374555800BE3ED9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
